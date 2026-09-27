@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:8080/api/auth';
+const API_URL = 'https://spirited-motivation-production-3d1a.up.railway.app/api/auth';
 
 export async function loginUser(email, password) {
     const response = await fetch(`${API_URL}/login`, {
